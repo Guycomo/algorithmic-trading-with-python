@@ -1,0 +1,28 @@
+# Core data handling
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Plotting / analysis
+matplotlib>=3.7.0
+scipy>=1.10.0
+
+# Market data (for videos/projects done outside QuantConnect's cloud IDE)
+yfinance>=0.2.28
+
+# Technical indicators (SMA/RSI/MACD etc. without hand-rolling everything)
+ta>=0.11.0
+
+# QuantConnect LEAN CLI — lets you write/backtest algorithms locally
+# and sync with your QuantConnect cloud account (course is built on QC)
+lean>=1.0.0
+
+# HTTP requests (broker APIs, data pulls, webhooks/alerts)
+requests>=2.31.0
+
+# Notebook environment, useful for the EDA/research side of each project
+jupyter>=1.0.0
+
+# --- Uncomment as needed per-video ---
+# ccxt>=4.0.0              # crypto exchange APIs (video 13/14 - crypto bots)
+# python-telegram-bot>=20  # alerts/monitoring (video 16+ / live deployment)
+# streamlit>=1.28.0        # quick dashboards for monitoring live/paper strategies
